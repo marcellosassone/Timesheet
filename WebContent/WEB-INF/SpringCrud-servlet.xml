@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd http://www.springframework.org/schema/context   
+        http://www.springframework.org/schema/context/spring-context-3.0.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
+
+	<!-- Questo è il Web Application Context (definito in web.xml) -->
+
+	<!-- scanner che si occupa di trovare le classi annotate con le annotation 
+		di Spring e Spring MVC (in particolare i controller nel nostro caso) -->
+	<mvc:annotation-driven />
+	<context:component-scan base-package="it.begear" />
+
+	<!-- un ViewResolver permette di identificare una determinata View sulla 
+		base di una stringa (Esistono diversi tipi di View resolver, in questo caso 
+		usiamo "Internal") -->
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/jsp/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+
+	<bean id="dipendenteDAO" class="it.begear.database.DipendenteDAOImpl"></bean>
+	<bean id="documentoDAO" class="it.begear.database.DocumentoDAOImpl"></bean>
+	<bean id="notificaDAO"  class="it.begear.database.NotificaDAOImpl"></bean>
+
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<mvc:mapping path="/user/**" />
+			<bean class="it.begear.filters.UserInterceptor" />
+		</mvc:interceptor>
+		<mvc:interceptor>
+			<mvc:mapping path="/admin/**" />
+			<bean class="it.begear.filters.AdminInterceptor" />
+		</mvc:interceptor>
+	</mvc:interceptors>
+</beans>

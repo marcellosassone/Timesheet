@@ -1,0 +1,17 @@
+
+€squid:S1604Ÿ"\Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.)(û©œúÿÿÿÿ8×¢˜˜+
+€squid:S1604À"\Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.)(û©œúÿÿÿÿ8“½“˜˜+
+nsquid:S1132½"JMove the "DESC" string literal on the left side of this string comparison.(Ïø”úÿÿÿÿ8‹Ó·˜˜+
+Csquid:S1166_"%Either log or rethrow this exception.(ï­£Ä8ƒ’è¦–+
+ksquid:S1192j"HDefine a constant instead of duplicating this literal "cf_user" 6 times.(Å‚£„şÿÿÿÿ8¢‘ì©–+
+msquid:S1192‹"IDefine a constant instead of duplicating this literal "listaDoc" 6 times.(½Êåİøÿÿÿÿ8…Äüó–+
+€squid:S1604"\Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.)(û©œúÿÿÿÿ8ƒ¢Ì˜˜+
+ksquid:S1192•"LDefine a constant instead of duplicating this literal "gestioneDoc" 5 times.(­‡“ÿ8…Äüó–+
+Csquid:S1166X"%Either log or rethrow this exception.(ï­£Ä8”Îê¨–+
+msquid:S1132º"IMove the "ASC" string literal on the left side of this string comparison.(À”öÊıÿÿÿÿ8ƒ¢Ì˜˜+
+Hsquid:S1166q"%Either log or rethrow this exception.(§ì»êúÿÿÿÿ8Š¶Î¦–+
+gsquid:S1192•"HDefine a constant instead of duplicating this literal "formDoc" 5 times.(­‡“ÿ8…Äüó–+
+Csquid:S1166>"%Either log or rethrow this exception.(É®£8Ï¯Í¥–+
+zsquid:S1192{"WDefine a constant instead of duplicating this literal "redirect:/user/loadDoc" 3 times.(™€Ø‡ıÿÿÿÿ8¶ÿœ˜+
+nsquid:S1132¦"JMove the "DESC" string literal on the left side of this string comparison.(Ïø”úÿÿÿÿ8ƒ¢Ì˜˜+
+msquid:S1132£"IMove the "ASC" string literal on the left side of this string comparison.(À”öÊıÿÿÿÿ8ïì°˜˜+
