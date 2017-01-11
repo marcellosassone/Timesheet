@@ -23,7 +23,7 @@
 		</table>
 	</form>
 
-	<form method="POST" action="/Timesheet/user/finalizzaModificaDoc">
+	<form method="POST" action="${initParam['TimesheetRoot']}/user/finalizzaModificaDoc">
 		<table border="2" width="70%" cellpadding="2">
 			<tr>
 				<th>ID</th>
@@ -49,9 +49,9 @@
 								<c:out value="${doc.descrizione}" />
 							</c:otherwise>
 						</c:choose></td>
-					<td><a href="/Timesheet/user/downloadDoc/${doc.id}">Download</a></td>
-					<td><a href="/Timesheet/user/updateDoc/${doc.id}">Modifica</a></td>
-					<td><a href="/Timesheet/user/deleteDoc/${doc.id}"
+					<td><a href="${initParam['TimesheetRoot']}/user/downloadDoc/${doc.id}">Download</a></td>
+					<td><a href="${initParam['TimesheetRoot']}/user/updateDoc/${doc.id}">Modifica</a></td>
+					<td><a href="${initParam['TimesheetRoot']}/user/deleteDoc/${doc.id}"
 						onClick='return confirm("Sei sicuro di Voler Eliminare il Record?")'>Elimina</a></td>
 				</tr>
 			</c:forEach>
@@ -61,7 +61,7 @@
 	</form>
 
 	<form:form method="POST" commandName="formDoc"
-		action="/Timesheet/user/inserisciDoc" enctype="multipart/form-data">
+		action="${initParam['TimesheetRoot']}/user/inserisciDoc" enctype="multipart/form-data">
 		<table>
 			<tr>
 				<td><form:label path="descrizione">Descrizione</form:label></td>
@@ -74,7 +74,7 @@
 		</table>
 		<br>
 		<br>
-		<a href="/Timesheet/">Torna al Main</a>
+		<a href="${initParam['TimesheetRoot']}/">Torna al Main</a>
 	</form:form>
 </body>
 </html>

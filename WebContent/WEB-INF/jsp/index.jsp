@@ -10,7 +10,7 @@
   
   
   
-      <link rel="stylesheet" href="/Timesheet/resources/css/stile.css">
+      <link rel="stylesheet" href="${initParam['TimesheetRoot']}/resources/css/stile.css">
 
   
 </head>
@@ -20,7 +20,7 @@
   <div class="main-wrap">
         <div class="login-main">
         <c:out value="${errore}"/>
-		<form:form method="POST" commandName="formDip" action="/Timesheet/login">
+		<form:form method="POST" commandName="formDip" action="${initParam['TimesheetRoot']}/login">
             <form:input type="text" path="username" class="box1 border1"/>
             <form:input type="password" path="password" class="box1 border2"/>
             <input type="submit" class="send" value="Go">

@@ -13,7 +13,7 @@
 	<h1>Modifica Dipendente: ${formDip.nome} ${formDip.cognome}</h1>
 
 	<form:form method="POST" commandName="formDip"
-		action="/Timesheet/finalizzaModDip">
+		action="${initParam['TimesheetRoot']}/finalizzaModDip">
 		<table>
 			<tr>
 				<td><form:label path="cf">CF</form:label></td>
@@ -45,7 +45,7 @@
 		</table>
 		<br>
 		<br>
-		<a href="/Timesheet/">Torna al Main</a>
+		<a href="${initParam['TimesheetRoot']}/">Torna al Main</a>
 	</form:form>
 </body>
 </html>

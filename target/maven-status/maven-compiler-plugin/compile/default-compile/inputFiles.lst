@@ -1,14 +1,18 @@
-C:\Users\Marcello\Desktop\Marcello Eclipse EE\Timesheet\src\it\begear\controllers\LoginController.java
-C:\Users\Marcello\Desktop\Marcello Eclipse EE\Timesheet\src\it\begear\database\DipendenteDAOImpl.java
-C:\Users\Marcello\Desktop\Marcello Eclipse EE\Timesheet\src\it\begear\models\Notifica.java
-C:\Users\Marcello\Desktop\Marcello Eclipse EE\Timesheet\src\it\begear\models\Dipendente.java
-C:\Users\Marcello\Desktop\Marcello Eclipse EE\Timesheet\src\it\begear\database\NotificaDAO.java
-C:\Users\Marcello\Desktop\Marcello Eclipse EE\Timesheet\src\it\begear\database\DocumentoDAO.java
-C:\Users\Marcello\Desktop\Marcello Eclipse EE\Timesheet\src\it\begear\util\HibernateUtil.java
-C:\Users\Marcello\Desktop\Marcello Eclipse EE\Timesheet\src\it\begear\models\Documento.java
-C:\Users\Marcello\Desktop\Marcello Eclipse EE\Timesheet\src\it\begear\database\DocumentoDAOImpl.java
-C:\Users\Marcello\Desktop\Marcello Eclipse EE\Timesheet\src\it\begear\controllers\DipendenteController.java
-C:\Users\Marcello\Desktop\Marcello Eclipse EE\Timesheet\src\it\begear\controllers\IndexController.java
-C:\Users\Marcello\Desktop\Marcello Eclipse EE\Timesheet\src\it\begear\database\DipendenteDAO.java
-C:\Users\Marcello\Desktop\Marcello Eclipse EE\Timesheet\src\it\begear\database\NotificaDAOImpl.java
-C:\Users\Marcello\Desktop\Marcello Eclipse EE\Timesheet\src\it\begear\controllers\DocumentoController.java
+C:\Users\dsibi\workspace\TimesheetMarcello\Timesheet\src\it\begear\controllers\NotificaController.java
+C:\Users\dsibi\workspace\TimesheetMarcello\Timesheet\src\it\begear\database\DipendenteDAO.java
+C:\Users\dsibi\workspace\TimesheetMarcello\Timesheet\src\it\begear\database\NotificaDAO.java
+C:\Users\dsibi\workspace\TimesheetMarcello\Timesheet\src\it\begear\filters\UserInterceptor.java
+C:\Users\dsibi\workspace\TimesheetMarcello\Timesheet\src\it\begear\test\controllers\DipendenteControllerTest.java
+C:\Users\dsibi\workspace\TimesheetMarcello\Timesheet\src\it\begear\controllers\IndexController.java
+C:\Users\dsibi\workspace\TimesheetMarcello\Timesheet\src\it\begear\database\DocumentoDAO.java
+C:\Users\dsibi\workspace\TimesheetMarcello\Timesheet\src\it\begear\database\DipendenteDAOImpl.java
+C:\Users\dsibi\workspace\TimesheetMarcello\Timesheet\src\it\begear\controllers\DipendenteController.java
+C:\Users\dsibi\workspace\TimesheetMarcello\Timesheet\src\it\begear\controllers\LoginController.java
+C:\Users\dsibi\workspace\TimesheetMarcello\Timesheet\src\it\begear\models\Documento.java
+C:\Users\dsibi\workspace\TimesheetMarcello\Timesheet\src\it\begear\util\HibernateUtil.java
+C:\Users\dsibi\workspace\TimesheetMarcello\Timesheet\src\it\begear\controllers\DocumentoController.java
+C:\Users\dsibi\workspace\TimesheetMarcello\Timesheet\src\it\begear\filters\AdminInterceptor.java
+C:\Users\dsibi\workspace\TimesheetMarcello\Timesheet\src\it\begear\database\NotificaDAOImpl.java
+C:\Users\dsibi\workspace\TimesheetMarcello\Timesheet\src\it\begear\models\Dipendente.java
+C:\Users\dsibi\workspace\TimesheetMarcello\Timesheet\src\it\begear\models\Notifica.java
+C:\Users\dsibi\workspace\TimesheetMarcello\Timesheet\src\it\begear\database\DocumentoDAOImpl.java

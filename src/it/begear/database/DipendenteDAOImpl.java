@@ -38,7 +38,7 @@ public class DipendenteDAOImpl implements DipendenteDAO {
 		} catch (HibernateException e) {
 			if (tx != null)
 				tx.rollback();
-			log.error(e.getStackTrace());
+			log.error("Fallita ricerca dipendente " + d, e);
 		} finally {
 			if (session != null)
 				session.close();

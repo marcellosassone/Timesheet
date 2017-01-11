@@ -28,22 +28,22 @@
 		<c:forEach var="dip" items="${listaDip}">
 			<tr>
 				
-				<td><a href="/Timesheet/admin/dammiDoc/${dip.cf}">x</a></td>
+				<td><a href="${initParam['TimesheetRoot']}/admin/dammiDoc/${dip.cf}">x</a></td>
 				<td>${dip.cf}</td>
 				<td>${dip.nome}</td>
 				<td>${dip.cognome}</td>
 				<td>${dip.username}</td>
 				<td>${dip.password}</td>
 				<td>${dip.admin}</td>
-				<td><a href="/Timesheet/updateDip/${dip.cf}">Modifica</a></td>
-				<td><a href="/Timesheet/deleteDip/${dip.cf}"
+				<td><a href="${initParam['TimesheetRoot']}/updateDip/${dip.cf}">Modifica</a></td>
+				<td><a href="${initParam['TimesheetRoot']}/deleteDip/${dip.cf}"
 					onClick='return confirm("Sei sicuro di Voler Eliminare il Record?")'>Elimina</a></td>
 			</tr>
 		</c:forEach>
 	</table>
 
 	<form:form method="POST" commandName="formDip"
-		action="/Timesheet/inserisciDip">
+		action="${initParam['TimesheetRoot']}/inserisciDip">
 		<table>
 			<tr>
 				<td><form:label path="cf">CF</form:label></td>
@@ -75,7 +75,7 @@
 		</table>
 		<br>
 		<br>
-		<a href="/Timesheet/">Torna al Main</a>
+		<a href="${initParam['TimesheetRoot']}/">Torna al Main</a>
 	</form:form>
 </body>
 </html>
